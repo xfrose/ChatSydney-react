@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt --upgrade
 
 EXPOSE 65432
 
-CMD ["python", "./main.py"]
+CMD ["python", "./main.py","--host","0.0.0.0:65535"]
